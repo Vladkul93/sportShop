@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./img/dress.svg" type="image/x-icon">
     <link rel="stylesheet" href="./css/normalize.css" type="text/html">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
@@ -17,14 +16,14 @@
                     <label for="select-box1" class="label select-box1">
                         <span class="label-desc white">Валюта:</span> 
                     </label>
-                    <select id="select-box1 " class="select" >
-                        <option value="Choice 1">UAH </option>
-                        <option value="Choice 1">USD</option>
-                    </select>
+                        <select id="select-box1 " class="select" >
+                            <option value="Choice 1">UAH </option>
+                            <option value="Choice 1">USD</option>
+                        </select>
                 </div>
                 <div class="box-ul">
                     <ul class="home-ul ul__padding">
-                        <li class="white__li"><a class="white__li white" href="./_sign.html"> Зареєструватися </a></li>
+                        <li class="white__li "><a class="white" href="./sign.html"> Зареєструватися </a></li>
                         <li class="padding__li white__li">Увійти</li>
                         <li class="li-btn" >
                             <i class="fas fa-shopping-cart fas__right"></i>
@@ -45,16 +44,16 @@
                 </div>
                 <div id="mySidenav" class="sidenav">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    <a href="./_product.html"> Чоловічі</a>
+                    <a href="./product.html"> Чоловічі</a>
                     <a href="#">  Жіночі</a>
-                    <a href="./_brand.html">Бренди</a>
-                    <a href="./_local.html"> Місцеві магазини </a>
-                    <a a href="./_look.html">Інщі товари </a>
+                    <a href="./brand.html">Бренди</a>
+                    <a href="./local.html"> Місцеві магазини </a>
+                    <a a href="./look.html">Інщі товари </a>
                     <a href="#">Контакти </a>
                 </div>
                 <div class="home__menu-nav" id="nav">
                     <div class="menu-item"> 
-                        <p> <a class="link__hover" href="./_product.html"> Чоловічі</a></p>
+                        <p> <a class="link__hover" href="./product.html"> Чоловічі</a></p>
                         <div class="menu__item-arrow">
                             <i class="fas fa-chevron-down"></i>
                         </div>
@@ -101,7 +100,7 @@
                         </div>
                     </div>
                     <div class="menu-item">
-                        <p> <a class="link__hover" href="./_brand.html"> Бренди</a></p>
+                        <p> <a class="link__hover" href="./brand.html"> Бренди</a></p>
                         <div class="menu__item-arrow">
                             <i class="fas fa-chevron-down"></i>
                         </div>
@@ -121,13 +120,13 @@
                         </div> 
                     </div>
                     <div class="menu-item">
-                        <p> <a class="link__hover" href="./_local.html">Місцеві магазини</a></p>
+                        <p> <a class="link__hover" href="./local.html">Місцеві магазини</a></p>
                         <div class="item-arrow">
                             <i class="fas fa-chevron-down"></i>
                         </div>
                     </div>
                     <div class="menu-item">
-                        <p> <a class="link__hover" href="./_look.html">Інщі товари</a></p>
+                        <p> <a class="link__hover" href="./look.html">Інщі товари</a></p>
                         <div class="item-arrow">
                             <i class="fas fa-chevron-down"></i>
                         </div>
@@ -135,104 +134,60 @@
                 </div>
                 <div class="d5 d5__padding">
                     <form role="hreader__form"  action="/requestFine" autocomplete="off"  method="GET">
-                        <input type="text" placeholder="Search.."><button class="search" type="submit"></button></form>
-                        <span class="burger__none"  onclick="openNav()">
-                            <i class="fas fa-bars fa-size"></i>
-                        </span> 
-                    </div>
+                    <input type="text"  placeholder="Search.. " ><button class="search" type="submit"></button></form>
+                    <span class="burger__none"  onclick="openNav()">
+                        <i class="fas fa-bars fa-size"></i>
+                    </span> 
                 </div>
-                    <div class="h1 h1__none">AVE</div>
+            </div>
+                <div class="h1 h1__none">AVE</div>
                 <div class="button__box">
                     <button class="home-btn__1 home-btn-none" > 
                         <span class="home-btn__text">shop men’s collection</span> 
                     </button>
                 </div>
-            </div>
-            <div class="brand__bg">
-                <div class="brand__title">
-                    <span class="brand__text text__weight">Місцеві магазини</span>
-                    <span class="brand__subtitle">Знайдіть магазин поруч із собою</span>
-                </div>
-            </div>
-        <div class="info__city">
-    <!-- slider -->
-        <div class="slide-container">
-            <div class="mySlides fade">
-                    <p class="city__title">Лондон</p>
-                    <p class="city__subtitle">180-182 Regent Street, Лондон, W1B 5BT</p>
-                    <p class="city__text" >Насправді ж, брендовий одяг – це дуже широке поняття, що звичайно має додаткові акценти. У сьогоднішньому суспільстві дорогі та елітні речі – незмінний аксесуар успішної людини. Вони підвищують впізнаваність, респектабельність, популярність свого власника та вказують на його високий статус. </p>
-                    <button class="city__button">
-                        <span class="city__button-text">Докладніше</span>
-                    </button>
-            </div>
-            <div class="mySlides fade">
-                    <p class="city__title">Нью-Йорк</p>
-                    <p class="city__subtitle">109 Колумбусове коло, Нью-Йорк, Нью-Йорк 10023</p>
-                    <p class="city__text" >Насправді ж, брендовий одяг – це дуже широке поняття, що звичайно має додаткові акценти. У сьогоднішньому суспільстві дорогі та елітні речі – незмінний аксесуар успішної людини. Вони підвищують впізнаваність, респектабельність, популярність свого власника та вказують на його високий статус.</p>
-                    <button class="city__button">
-                        <span class="city__button-text">Докладніше</span>
-                    </button>
-            </div>
-            <div class="mySlides fade">
-                    <p class="city__title">Париж</p>
-                    <p class="city__subtitle">2133 Rue Saint-Honoré, 75001 Париж</p>
-                    <p class="city__text" >Насправді ж, брендовий одяг – це дуже широке поняття, що звичайно має додаткові акценти. У сьогоднішньому суспільстві дорогі та елітні речі – незмінний аксесуар успішної людини. Вони підвищують впізнаваність, респектабельність, популярність свого власника та вказують на його високий статус.</p>
-                    <button class="city__button">
-                        <span class="city__button-text">Докладніше</span>
-                    </button>
-            </div>
-                <!-- Next and previous buttons -->
-                <a class="prev prev__margin" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            </div>
-            <div class="box__city-1">
-                <p class="city__title">Лондон</p>
-                <p class="city__subtitle">180-182 Regent Street, Лондон, W1B 5BT</p>
-                <p class="city__text" >Насправді ж, брендовий одяг – це дуже широке поняття, що звичайно має додаткові акценти. У сьогоднішньому суспільстві дорогі та елітні речі – незмінний аксесуар успішної людини. Вони підвищують впізнаваність, респектабельність, популярність свого власника та вказують на його високий статус. </p>
-                <button class="city__button">
-                    <span class="city__button-text">Докладніше</span>
-                </button>
-            </div>
-            <div class="box__city-1">
-                <p class="city__title">Нью-Йорк</p>
-                <p class="city__subtitle">109 Колумбусове коло, Нью-Йорк, Нью-Йорк 10023</p>
-                <p class="city__text" >Насправді ж, брендовий одяг – це дуже широке поняття, що звичайно має додаткові акценти. У сьогоднішньому суспільстві дорогі та елітні речі – незмінний аксесуар успішної людини. Вони підвищують впізнаваність, респектабельність, популярність свого власника та вказують на його високий статус.</p>
-                <button class="city__button">
-                    <span class="city__button-text">Докладніше</span>
-                </button>
-            </div>
-            <div class="box__city-1">
-                <p class="city__title">Париж</p>
-                <p class="city__subtitle">2133 Rue Saint-Honoré, 75001 Париж</p>
-                <p class="city__text" >Насправді ж, брендовий одяг – це дуже широке поняття, що звичайно має додаткові акценти. У сьогоднішньому суспільстві дорогі та елітні речі – незмінний аксесуар успішної людини. Вони підвищують впізнаваність, респектабельність, популярність свого власника та вказують на його високий статус.</p>
-                <button class="city__button">
-                    <span class="city__button-text">Докладніше</span>
-                </button>
+        </div>
+        <div class="brand__bg">
+            <div class="brand__title">
+                <span class="brand__text weigt__title">ласкаво просимо до AVE </span>
+                <span class="brand__subtitle weigt__subtitle">увійдіть або зареєструйтесь</span>
             </div>
         </div>
-        <div class="box__map">
-            <div class="city__map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d20309.075323923767!2d30.4721233!3d50.4851493!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1624820733954!5m2!1sru!2sua"  allowfullscreen="" loading="lazy"></iframe>
-            </div>
-            <div class="city__info">
-                    <p class="city__title">Лондон</p>
-                    <p class="city__subtitle">180-182 Regent Street, Лондон, W1B 5BT</p>
-                    <p class="city__text" >Насправді ж, брендовий одяг – це дуже широке поняття, що звичайно має додаткові акценти У сьогоднішньому суспільстві дорогі та елітні речі – незмінний аксесуар успішної людини. Вони підвищують впізнаваність, респектабельність, популярність свого власника та вказують на його високий статус. </p>
-                <div class="city__icon">
-                    <i class="fas fa-map-marker-alt padding__icon"> &nbsp;<span>180-182 Regent Street, London, W1B 5BT</span> </i>
-                    <i class="fas fa-phone-alt padding__icon">0123-456-789</i>
-                    <i class="fas fa-link padding__icon">www.yourwebsite.com</i>
-                    <i class="far fa-envelope padding__icon">support@yourwebsite.com</i>
-                    <i class="far fa-clock padding__icon">Понедельник-пятница: с 9:00 до 18:00, суббота: с 10:00 до 18:00, воскресенье: с 10:00 до 14:00.</i>
+<!-- NEW BLOCK-->
+        <div class="form__main">
+            <div class="form__box">
+                <div class="form__box-1">
+                    <p class="form__title"> увійти</p>
+                    <form action="" method="GET">
+                        <div class="input__box">
+                            <input id="input" class="input__size-1" type="email" placeholder="Ваш емейл..">
+                            <input  class="input__size-1" type="passsword" placeholder="Ваш пароль..">
+                        </div>
+                        <div class="form__btn">
+                            <button class="btn__form">увійти</button>
+                            <p class="form__text"> Забули свій пароль <i class="far fa-long-arrow-alt-right blue"></i></p>
+                        </div>
+                    </form>
                 </div>
-                <div class="city__svg">
-                    <i class="fab fa-facebook-f border"></i>
-                    <i class="fab fa-twitter border"></i>
-                    <i class="fab fa-instagram border"></i>
-                    <i class="fab fa-pinterest border"></i>
-                </div>
+                <div class="gallery__line-vertical"></div>
+                <div class="form__box-2">
+                    <form action="" method="GET">
+                        <p class="form__title">Зареєструйтесь</p>
+                    </form>
+                    <div class="input__box">
+                        <input  class="input__size" type="email" placeholder="Ваш емейл..">
+                        <input class="input__size" type="password" placeholder="Ваш пароль..">
+                        <input class="input__size" type="password" placeholder="Підтвердьте пароль..">
+                    </div>
+                    <div class="input__checkbox"> <input class="checkbox"  type="checkbox"><p class="check__text">Підпишіться на ексклюзивні оновлення, знижки, нові надходження, конкурси тощо!</p></div>
+                        <div class="form__btn">
+                            <button class="btn__form-2"> Створити аккаунт</button>
+                            <p class="form__text">Натиснувши «Створити обліковий запис», ви погоджуетеся з нашою Політикою конфіденційності<i class="far fa-long-arrow-alt-right"></i></p>
+                        </div>
+                </div> 
             </div>
         </div>
+<!-- NEW BLOCK-->
         <div class="box__footer">
             <div class="box__info">
                 <div class="box__info-1">Інформація

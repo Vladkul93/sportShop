@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/dress.svg" type="image/x-icon">
     <link rel="stylesheet" href="./css/normalize.css" type="text/html">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
@@ -16,15 +17,15 @@
                     <label for="select-box1" class="label select-box1">
                         <span class="label-desc white">Валюта:</span> 
                     </label>
-                        <select id="select-box1 " class="select" >
-                            <option value="Choice 1">UAH </option>
-                            <option value="Choice 1">USD</option>
-                        </select>
+                    <select id="select-box1" class="select" >
+                        <option value="Choice 1">UAH </option>
+                        <option value="Choice 1">USD</option>
+                    </select>
                 </div>
                 <div class="box-ul">
                     <ul class="home-ul ul__padding">
-                        <li class="white__li "><a class="white" href="./_sign.html"> Зареєструватися </a></li>
-                        <li class="padding__li white__li">Увійти</li>
+                        <li class="white__li"><a class="white__li white" href="./sign.html"> Зареєструватися </a></li>
+                        <li class="padding__li white__li" data-popup = "popup-menu">Увійти</li>
                         <li class="li-btn" >
                             <i class="fas fa-shopping-cart fas__right"></i>
                             <span class="li-btn__text">Порожній</span>
@@ -34,7 +35,7 @@
                 </div>
             </div>
         </div>
-        <div class="home-bg home-bg__none home__height">
+        <div class="home-bg home-bg__none home-bg__padding home__height">
             <div class="home-menu padding__menu">
                 <div class="home-title">
                     <a class="title__flex" href="./index.html"> 
@@ -42,21 +43,12 @@
                         <p class="title-2">Fashion</p>
                     </a>
                 </div>
-                <div id="mySidenav" class="sidenav">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    <a href="./_product.html"> Чоловічі</a>
-                    <a href="#">  Жіночі</a>
-                    <a href="./_brand.html">Бренди</a>
-                    <a href="./_local.html"> Місцеві магазини </a>
-                    <a a href="./_look.html">Інщі товари </a>
-                    <a href="#">Контакти </a>
-                </div>
                 <div class="home__menu-nav" id="nav">
                     <div class="menu-item"> 
-                        <p> <a class="link__hover" href="./_product.html"> Чоловічі</a></p>
-                        <div class="menu__item-arrow">
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
+                        <p> <a class="link__hover" href="./product.html"> Чоловічі</a></p>
+                            <div class="menu__item-arrow">
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
                         <div class="submenu">
                             <div class="submenu-box">
                                 <ul class="submenu-ul">
@@ -78,7 +70,7 @@
                         </div>
                     </div>
                     <div class="menu-item">
-                            <p class="link__hover"> Жіночі</p> 
+                        <p class="link__hover"> Жіночі</p> 
                         <div class="menu__item-arrow">
                             <i class="fas fa-chevron-down"></i>
                         </div>
@@ -100,7 +92,7 @@
                         </div>
                     </div>
                     <div class="menu-item">
-                        <p> <a class="link__hover" href="./_brand.html"> Бренди</a></p>
+                        <p> <a class="link__hover" href="./brand.html"> Бренди</a></p>
                         <div class="menu__item-arrow">
                             <i class="fas fa-chevron-down"></i>
                         </div>
@@ -120,13 +112,13 @@
                         </div> 
                     </div>
                     <div class="menu-item">
-                        <p> <a class="link__hover" href="./_local.html">Місцеві магазини</a></p>
+                        <p> <a class="link__hover" href="./local.html">Місцеві магазини</a></p>
                         <div class="item-arrow">
                             <i class="fas fa-chevron-down"></i>
                         </div>
                     </div>
                     <div class="menu-item">
-                        <p> <a class="link__hover" href="./_look.html">Інщі товари</a></p>
+                        <p> <a class="link__hover" href="./look.html">Інщі товари</a></p>
                         <div class="item-arrow">
                             <i class="fas fa-chevron-down"></i>
                         </div>
@@ -134,10 +126,10 @@
                 </div>
                 <div class="d5 d5__padding">
                     <form role="hreader__form"  action="/requestFine" autocomplete="off"  method="GET">
-                    <input type="text"  placeholder="Search.. " ><button class="search" type="submit"></button></form>
-                    <span class="burger__none"  onclick="openNav()">
-                        <i class="fas fa-bars fa-size"></i>
-                    </span> 
+                        <input type="text" placeholder="Search.."><button class="search" type="submit"></button></form>
+                        <span class="burger__none"  onclick="openNav()">
+                            <i class="fas fa-bars fa-size"></i>
+                        </span> 
                 </div>
             </div>
                 <div class="h1 h1__none">AVE</div>
@@ -147,47 +139,74 @@
                     </button>
                 </div>
         </div>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="./product.html"> Чоловічі</a>
+            <a href="#">  Жіночі</a>
+            <a href="./brand.html">Бренди</a>
+            <a href="./local.html"> Місцеві магазини </a>
+            <a a href="./look.html">Інщі товари </a>
+            <a href="#">Контакти </a>
+        </div>
         <div class="brand__bg">
             <div class="brand__title">
-                <span class="brand__text weigt__title">ласкаво просимо до AVE </span>
-                <span class="brand__subtitle weigt__subtitle">увійдіть або зареєструйтесь</span>
+                <span class="brand__text text__weight">Бренд</span>
+                <span class="brand__subtitle">Якого Ви варті</span>
             </div>
         </div>
-<!-- NEW BLOCK-->
-        <div class="form__main">
-            <div class="form__box">
-                <div class="form__box-1">
-                    <p class="form__title"> увійти</p>
-                    <form action="" method="GET">
-                        <div class="input__box">
-                            <input id="input" class="input__size-1" type="email" placeholder="Ваш емейл..">
-                            <input  class="input__size-1" type="passsword" placeholder="Ваш пароль..">
-                        </div>
-                        <div class="form__btn">
-                            <button class="btn__form">увійти</button>
-                            <p class="form__text"> Забули свій пароль <i class="far fa-long-arrow-alt-right blue"></i></p>
-                        </div>
-                    </form>
-                </div>
-                <div class="gallery__line-vertical"></div>
-                <div class="form__box-2">
-                    <form action="" method="GET">
-                        <p class="form__title">Зареєструйтесь</p>
-                    </form>
-                    <div class="input__box">
-                        <input  class="input__size" type="email" placeholder="Ваш емейл..">
-                        <input class="input__size" type="password" placeholder="Ваш пароль..">
-                        <input class="input__size" type="password" placeholder="Підтвердьте пароль..">
+            <div class="box__column">
+                <div class="column__1">
+                    <div class="column__photo-1">
+                        <img class="column__img" src="./img/Brand2.jpg" alt="">
                     </div>
-                    <div class="input__checkbox"> <input class="checkbox"  type="checkbox"><p class="check__text">Підпишіться на ексклюзивні оновлення, знижки, нові надходження, конкурси тощо!</p></div>
-                        <div class="form__btn">
-                            <button class="btn__form-2"> Створити аккаунт</button>
-                            <p class="form__text">Натиснувши «Створити обліковий запис», ви погоджуетеся з нашою Політикою конфіденційності<i class="far fa-long-arrow-alt-right"></i></p>
-                        </div>
-                </div> 
+                    <div class="column__photo-2">
+                        <img class="column__img" src="./img/Brand4.jpg"  alt="">
+                    </div>
+                    <div class="column__box-text">
+                        <p class="column__text-title">
+                            Наші цінності, бачення та стратегія
+                        </p>
+                        <p class="column__text-subtitle">
+                            Якісні тканини за доступними цінами - задача не з легких
+                        </p>
+                        <p class="column__text-alltext">
+                            Зараз, коли наші процеси вже майже налагоджені, я таки знайшла час для блогу. Що ж продовжу розповідати вам про нашу компанію, команду, структуру і все, що відбувається за лаштунками. Бренду Nine вже півтора року. 
+                        </p>
+                    </div>
+                </div>
+                <div class="column__2">
+                    <div class="column__box-text">
+                        <p class="column__text-title">
+                            Наші цінності, бачення та стратегія
+                        </p>
+                        <p class="column__text-subtitle">
+                            Якісні тканини за доступними цінами - задача не з легких
+                        </p>
+                        <p class="column__text-alltext">
+                            Зараз, коли наші процеси вже майже налагоджені, я таки знайшла час для блогу. Що ж продовжу розповідати вам про нашу компанію, команду, структуру і все, що відбувається за лаштунками. Бренду Nine вже півтора року. 
+                        </p>
+                    </div>
+                    <div class="column__photo-3">
+                        <img class="column__img" src="./img/Brand3.jpg"  alt="">
+                    </div>
+                    <div class="column__box-text">
+                        <p class="column__text-title">
+                            Наші цінності, бачення та стратегія
+                        </p>
+                        <p class="column__text-subtitle">
+                            Якісні тканини за доступними цінами - задача не з легких
+                        </p>
+                        <p class="column__text-alltext">
+                            Зараз, коли наші процеси вже майже налагоджені, я таки знайшла час для блогу. Що ж продовжу розповідати вам про нашу компанію, команду, структуру і все, що відбувається за лаштунками. Бренду Nine вже півтора року. 
+                        </p>
+                    </div>
+                    <div class="column__brand">
+                        <div class="column__brand-1"></div>
+                        <div class="column__brand-2"></div>
+                        <div class="column__brand-3"></div>
+                    </div>
+                </div>
             </div>
-        </div>
-<!-- NEW BLOCK-->
         <div class="box__footer">
             <div class="box__info">
                 <div class="box__info-1">Інформація
@@ -233,18 +252,18 @@
                         <li class="black__li">Телефон: 0123-456-789 Email: support@yourwebsite.com</li>
                     </ul>
                 </div>
+        </div>
+        <div class="footer__contact-111">
+            <div class="footer__contact-222">
+                <p><span class="award__weight-1">award winner</span ><p class="award__weight-2">fashion awards 2021</p></p> 
             </div>
-            <div class="footer__contact-111">
-                <div class="footer__contact-222">
-                    <p><span class="award__weight-1">award winner</span ><p class="award__weight-2">fashion awards 2021</p></p> 
-                </div>
                 <div class="social__svg-1">
                     <i class="fab fa-facebook-f"></i>
                     <i class="fab fa-twitter"></i>
                     <i class="fab fa-instagram"></i>
                     <i class="fab fa-pinterest"></i>
                 </div>
-            </div>
+        </div>
         </div>
         <footer>
             <div class="footer__main">
@@ -254,6 +273,31 @@
             </div>
         </footer>
     </div>
+        <!-- popup-menu -->
+
+        <div id="close__popup" class="popup popup-menu">
+            <div class="popup__wrapper">
+                <div class="popup__inner">
+                    <div class="popup__content">
+                        <button class="btn-close popup__btn-close popup-close"></button>
+                        <div class="form__box-1">
+                            <p class="form__title title-center"> увійти</p>
+                            <form action="" method="GET">
+                                <div class="input__box">
+                                    <input id="input" class="input__size-1" type="email" placeholder="Ваш емейл..">
+                                    <input  class="input__size-1" type="passsword" placeholder="Ваш пароль..">
+                                </div>
+                                <div class="form__btn title-center">
+                                    <button class="btn__form ">увійти</button>
+                                    <p class="form__text"> Забули свій пароль <i class="far fa-long-arrow-alt-right blue"></i></p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!-- popup-menu -->
 <script src="https://kit.fontawesome.com/e2a87a6f89.js" crossorigin="anonymous"></script>
 <script src="./js/script.js" ></script>
 </body>
