@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css" type="text/html">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="home-box">  
+        <div class="home-all">
+            <div class="nav-box">   
+                <div class="select-box select__padding">
+                    <label for="select-box1" class="label select-box1">
+                        <span class="label-desc white">Валюта:</span> 
+                    </label>
+                    <select id="select-box1 " class="select" >
+                        <option value="Choice 1">UAH </option>
+                        <option value="Choice 1">USD</option>
+                    </select>
+                </div>
+                <div class="box-ul">
+                    <ul class="home-ul ul__padding">
+                        <li class="white__li"><a class="white__li hover__white white "  href="./_sign.html"> Зареєструватися </a></li>
+                        <li class="padding__li white__li">Увійти</li>
+                        <li class="li-btn" >
+                            <i class="fas fa-shopping-cart fas__right"></i>
+                            <span class="li-btn__text">Порожній</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="home-bg home-bg__none home__height">
+            <div class="home-menu padding__menu ">
+                <div class="home-title">
+                    <a class="title__flex" href="./index.html"> 
+                        <p class="title-1">Avenue</p>
+                        <p class="title-2">Fashion</p>
+                    </a>
+                </div>
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="./_product.html"> Чоловічі</a>
+                    <a href="#">  Жіночі</a>
+                    <a href="./_brand.html">Бренди</a>
+                    <a href="./_local.html"> Місцеві магазини </a>
+                    <a a href="./_look.html">Інщі товари </a>
+                    <a href="#">Контакти </a>
+                </div>
+                <div class="home__menu-nav" id="nav">
+                    <div class="menu-item"> 
+                        <p> <a class="link__hover" href="./_product.html"> Чоловічі</a></p>
+                            <div class="menu__item-arrow">
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                        <div class="submenu">
+                            <div class="submenu-box">
+                                <ul class="submenu-ul">
+                                    <li class="black__ul" >Повсягденний одяг</li>
+                                    <li class="black__li">Толстовки</li>
+                                    <li class="black__li">Футболки</li>
+                                    <li class="black__li">Поло</li>
+                                </ul>
+                                <ul class="submenu-ul">
+                                    <li class="black__ul">Офіційний одяг</li>
+                                    <li class="black__li">Сорочки</li>
+                                    <li class="black__li">Костюми</li>
+                                    <li class="black__li">Брюки</li>
+                                </ul>
+                            </div>
+                            <div class="discount">
+                                <span class="discount__text">Літній розпродаж!знижка до 50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                            <p class="link__hover"> Жіночі</p> 
+                        <div class="menu__item-arrow">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="submenu">
+                            <div class="submenu-box">
+                                <ul class="submenu-ul">
+                                    <li class="black__ul" >Повсягденний одяг</li>
+                                    <li class="black__li">Сарафани</li>
+                                    <li class="black__li">Футболки</li>
+                                    <li class="black__li">Туніки</li>
+                                </ul>
+                                <ul class="submenu-ul">
+                                    <li class="black__ul">Офіційний одяг</li>
+                                    <li class="black__li">Сукні</li>
+                                    <li class="black__li">Костюми</li>
+                                    <li class="black__li">Брюки</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <p> <a class="link__hover" href="./_brand.html"> Бренди</a></p>
+                        <div class="menu__item-arrow">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="submenu">
+                            <div class="submenu-box submenu-box__padding">
+                                <div class="brand__1">
+                                    <object class="fz__40" data="./img/mango-306.svg" type="image/svg+xml"></object>
+                                    <object class="fz__40" data="./img/zara-109.svg" type="image/svg+xml"></object>
+                                    <object class="fz__40" data="./img/tommy hilfhiger-164.svg" type="image/svg+xml"></object>
+                                </div>
+                                <div class="brand__2">
+                                    <object class="fz__40" data="./img/moncler-244.svg" type="image/svg+xml"></object>
+                                    <object class="fz__80" data="./img/calvin klein-104.svg" type="image/svg+xml"></object>
+                                    <object class="fz__40" data="./img/balenciaga-144.svg" type="image/svg+xml"></object>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="menu-item">
+                        <p> <a class="link__hover" href="./_local.html">Місцеві магазини</a></p>
+                        <div class="item-arrow">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <p> <a class="link__hover" href="./_look.html">Інщі товари</a></p>
+                        <div class="item-arrow">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="d5 d5__padding">
+                    <form role="hreader__form"  action="/requestFine" autocomplete="off"  method="GET">
+                        <input type="text" placeholder="Search.."><button class="search" type="submit"></button></form>
+                        <span class="burger__none"  onclick="openNav()">
+                            <i class="fas fa-bars fa-size"></i>
+                        </span> 
+                </div>
+            </div>
+                <div class="h1 h1__none">AVE</div>
+                <div class="button__box">
+                    <button class="home-btn__1 home-btn-none" > 
+                        <span class="home-btn__text">shop men’s collection</span> 
+                    </button>
+                </div>
+            </div>
+            <div class="brand__bg">
+                <div class="brand__title">
+                    <span class="brand__text"><span class="text__bold">Чоловічий</span> стиль</span>
+                    <span class="brand__subtitle">чоловічі - повсякденні - толстовки та світшоти - <span class="color__blue">Ave класична толстовка</span> </span>
+                </div>
+            </div>
+<!-- NEW BLOCK-->
+            <div class="product">
+                <div class="product__box">
+                    <div class="product__box-1">
+        <!-- slider -->
+                    <div class="slideshow-box">
+                        <div class="mySlides fade">
+                            <img src="./img/Product.jpg" alt="">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="./img/Product2.jpg" alt="">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="./img/Product3.jpg" alt="">
+                        </div>
+        <!-- Next and previous buttons -->
+                            <a class="prevv" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="nextt" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                    <br>
+        <!-- The dots/circles -->
+                            <div class="text__none" style="text-align:center ">
+                                <span class="dot" onclick="currentSlide(1)"></span>
+                                <span class="dot" onclick="currentSlide(2)"></span>
+                                <span class="dot" onclick="currentSlide(3)"></span>
+                            </div>
+        <!-- slider -->
+                    </div>
+                    <div class="product__box-2">
+                        <p class="product__title" >Толстовка Ave classic</p>
+                        <div class="product__element">
+                            <div class="rating-area">
+                                <input type="radio" id="star-5" name="rating" value="5">
+                                <label for="star-5" title="Оценка «5»"></label>	
+                                <input type="radio" id="star-4" name="rating" value="4">
+                                <label for="star-4" title="Оценка «4»"></label>    
+                                <input type="radio" id="star-3" name="rating" value="3">
+                                <label for="star-3" title="Оценка «3»"></label>  
+                                <input type="radio" id="star-2" name="rating" value="2">
+                                <label for="star-2" title="Оценка «2»"></label>    
+                                <input type="radio" id="star-1" name="rating" value="1">
+                                <label for="star-1" title="Оценка «1»"></label>
+                            </div>
+                                <p class="element__1">3 Розмір(s) |</p>
+                                <p class="element__2">| Add a Розмір</p>
+                                <p class="element__3"> Поділіться:</p>
+                                <p class="element__icon">
+                                <i class="fab fa-facebook-f"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-google-plus-g"></i>
+                                <i class="fab fa-pinterest-p"></i>
+                                <i class="fab fa-instagram-square"></i>
+                                <i class="far fa-envelope"></i>
+                            </p>
+                        </div>
+                        <div class="element__price">
+                            <p class="price__1"> <span class="price__logo">₴</span>  400</p>
+                            <p class="price__2"><span class="price__logo">₴</span> 200</p>
+                        </div>
+                        <div class="product__code">
+                            <p class="code__text"> Наявність: <span class="code__text-1">Є в наявності</span> </p>
+                            <p class="code__text"> Код товару: <span class="code__text-1"># 499577</span> </p>
+                            <p class="code__text"> Теги:  <span class="code__text-2">класичний, повсякденний, V-подібний виріз, вільний</span> </p>
+                        </div>
+                        <p class="product__text" >Толстовки чоловічі в AVE сьогодні неймовірно затребувані, оскільки молодь дуже швидко змогла оцінити всі переваги такого одягу. Однак, подібні речі будуть доречними не тільки в гардеробі юних модників, але і у людей старшого віку для них знайдеться певне місце.</p>
+                        <ul class="product__list">
+                            <li>• Еластичні манжети.</li>
+                            <li>• Повседневный крой.</li>
+                            <li>• 100% хлопок</li>
+                            <li>• Безкоштовна доставка при доставці протягом 4 днів.</li>
+                        </ul>
+                    <div class="product__select-box">
+                        <div class="product__select">
+                            <p class="select__box">Колір</p>
+                            <div class="product__select-1">
+                                <select id="product-box1" class="product__select-1" >  
+                                    <option value="Choice 1"> Обрати колір</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="product__select">
+                            <p class="select__box">Розмір</p>
+                            <div class="product__select-1">
+                                <select id="product-box1" class="product__select-1" >
+                                    <option value="Choice 1"> Обрати розмір</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="product__select">
+                            <p class="select__box">Кількість</p>
+                            <div class="product__select-2">
+                                <input class="select__number" type="number">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__btn">
+                        <button class="product__btn-1"> <i class="fas fa-shopping-cart fas__right"></i>Додати в кошик</button>
+                        <button class="product__btn-2"><i class="far fa-heart"></i>Додати до обраних</button>
+                    </div>
+                    <div  class="product__choise">
+                        <div class="compress-1 "><i class="fas fa-compress-alt"></i></div>
+                        <div class="compress"><p class="product__choise-1">Add to Compare</p></div>
+                    </div>
+                </div>
+                </div>
+                <div class="product__text">
+                    <nav class="catalog-nav">
+                        <ul class="catalog-nav__wrapper">
+                            <li class="catalog-nav__item">
+                                <button class="catalog-nav__btn btn__black " type="button" data-filter="all" >Опис</button>
+                            </li>
+                            <li class="catalog-nav__item">
+                                <button class="catalog-nav__btn" type="button" data-filter="mushrooms" >Розмір та характеристики</button>
+                            </li>
+                            <li class="catalog-nav__item">
+                                <button class="catalog-nav__btn btn__black" type="button" data-filter="meat" >Відео</button>
+                            </li>
+                            <li class="catalog-nav__item">
+                                <button class="catalog-nav__btn" type="button" data-filter="cheese" >Доставка та повернення</button>
+                            </li>
+                            <li class="catalog-nav__item">
+                                <button class="catalog-nav__btn btn__black" type="button" data-filter="cheese" >Відгуки</button>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="product__text-0">
+                        <p class="product__text-1" >Прихильники стилю кежуал і просто спортивних речей, швидше за все люблять толстовки. </p>
+                        <p class="product__text-2" > Толстовка відмінний варіант одягу на кожен день, однак, при вмілому поєднанні з нею можна створювати образи для нічного клубу або романтичного побачення, звичайно, якщо не збираєтеся в ресторан або театр. Можливо, для роботи такий одяг буде не зовсім доречною, однак ви зможете знайти їй застосування в повсякденності, в яку вона досить добре вписується. </p>
+                        <p class="product__text-2">Чоловічі спортивні кофти виробляються як з зовсім легких тканин, так і з більш щільних утеплених, тому такі речі можна з комфортом носити не тільки в теплу пору року, але і по холоду. Якщо звичайний спосіб з такою кофтою і джинсами здається вам нудним, то підберіть додаткові речі до такого луку. Оскільки сьогодні в моді багатошаровість, то ви зможете надягати під них різні контрастні футболки, які відмінно виглядатимуть разом з толстовки і джинсовими штанами. Також ви можете зробити акцент в будь-якому образі на яскравій сумці або рюкзаку. Що стосується взуття, то необхідно підбирати до всього образу цілком: це можуть бути кросівки, зручні кеди або стильні черевики, в залежності від пори року. Купити толстовку чоловічу в інтернет магазині в Україні ви можете на численних сторінках нашого сайту, де представлені найкращі продукти від європейського виробника.</p>
+                    </div>
+                </div>
+            </div>
+<!-- NEW BLOCK-->
+            <div class="box__footer">
+                <div class="box__info">
+                    <div class="box__info-1">Інформація
+                        <ul class="info__1">
+                            <li class="black__li">Бренд</li>
+                            <li class="black__li">Місцеві магазини</li>
+                            <li class="black__li">Обслуговування клієнтів</li>
+                            <li class="black__li">Конфіденційність</li>
+                            <li class="black__li">Карта сайту</li>
+                        </ul>
+                    </div>
+                    <div class="box__info-1">Навіщо купувати у нас
+                        <ul class="info__1">
+                            <li class="black__li">Доставка та повернення</li>
+                            <li class="black__li">Захищений шопінг</li>
+                            <li class="black__li">Відгуки</li>
+                            <li class="black__li">Виграш</li>
+                            <li class="black__li">Етична торгівля</li>
+                        </ul>
+                    </div>
+                    <div class="box__info-1">Ваш рахунок
+                        <ul class="info__1">
+                            <li class="black__li">Увійти</li>
+                            <li class="black__li">Зареєструйтесь</li>
+                            <li class="black__li">Переглянути кошик</li>
+                            <li class="black__li">Перегляньте свій стиль</li>
+                            <li class="black__li">Відстежуйте замовлення</li>
+                            <li class="black__li">Оновити інформацію</li>
+                        </ul>
+                    </div>
+                    <div class="box__info-1">Пошук стилю 
+                        <ul class="info__1">
+                            <li class="black__li">Останні повідомлення</li>
+                            <li class="black__li">Чоловічий стиль</li>
+                            <li class="black__li">Жіночий стиль</li>
+                            <li class="black__li">Перегляньте свій стиль</li>
+                            <li class="black__li">Видаліть свій стиль</li>
+                        </ul>
+                    </div>
+                    <div class="box__info-1"> Контактні дані
+                        <ul class="info__1">
+                            <li class="black__li">Головний офіс: Avenue Fashion, 180-182 Реджент-стріт, Лондон.</li>
+                            <li class="black__li">Телефон: 0123-456-789 Email: support@yourwebsite.com</li>
+                        </ul>
+                    </div>
+                </div>
+            <div class="footer__contact-111">
+                <div class="footer__contact-222">
+                    <p><span class="award__weight-1">award winner</span ><p class="award__weight-2">fashion awards 2021</p></p> 
+                </div>
+                <div class="social__svg-1">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest"></i>
+                </div>
+            </div>
+        </div>
+            <footer>
+                <div class="footer__main">
+                    <p class="author">© 2021 Avenue Fashion™ </p>  
+                    <p class="author">Design by RobbyDesigns.com </p>
+                    <p class="author"> Dev by Loremipsum.com</p>
+                </div>
+            </footer>
+</div>
+<script src="https://kit.fontawesome.com/e2a87a6f89.js" crossorigin="anonymous"></script>
+<script src="./js/script.js" ></script>
+</body>
+</html>
